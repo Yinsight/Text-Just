@@ -3,7 +3,7 @@ package TextJustification;
 public class Question1 {
 
 	public static int badness(String[] W, int i, int j, int width) {
-		int temp = width - l(W, i, j); // Calculation the condition value
+		int temp = width - l(W, i, j); // Calculate the condition value
 		if (temp >= 0)
 			return (int) Math.pow(temp, 3);// In that function if x>=0 return x^3
 
